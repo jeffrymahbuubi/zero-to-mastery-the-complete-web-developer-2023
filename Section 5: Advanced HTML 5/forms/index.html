@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="make simple forms with HTML and CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>forms</title>
+  </head>
+  <body>
+    <h1>Simple Forms</h1>
+    <form method="GET">
+      <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" />
+      </p>
+
+      <p>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+      </p>
+      <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+      </p>
+      <p>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+      </p>
+      <div>
+        <label for="default">Gender:</label><br />
+        <input type="radio" id="default" name="male" />Male <br />
+        <input type="radio" id="female" name="female" />Female <br />
+        <input type="radio" id="other" name="other" />Other <br />
+      </div>
+      <div>
+        <label for="default-checkbox">Cars:</label><br />
+        <input type="checkbox" id="default-checkbox" name="cat" />Cat<br />
+        <input type="checkbox" id="dog" name="dog" />Dog<br />
+      </div>
+      <input type="submit" value="Register!" />
+    </form>
+    <br />
+    <form action="https://www.reddit.com/search" method="get">
+      <h2>Reddit Search Bar</h2>
+      <label for="reddit">Search:</label>
+      <input type="text" id="reddit" name="q" />
+      <button>Search Reddit</button>
+    </form>
+  </body>
+</html>

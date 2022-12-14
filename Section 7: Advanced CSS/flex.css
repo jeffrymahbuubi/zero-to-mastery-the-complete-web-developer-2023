@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 0.5s;
+}
+
+img:hover {
+  /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; */
+  transform: scale(1.1);
+}
+
+h1 {
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  font-family: fantasy, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  width: 400px;
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+  box-shadow: 4px 4px 5px #888888;
+}

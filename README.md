@@ -14,3 +14,7 @@ In total there are **35 section** that cover from **basic until advance on web d
 - **Section 4**: HTML 5
 - **Section 5**: Advanced HTML 5
   - [forms](https://github.com/jeffrymahbuubi/zero-to-mastery-the-complete-web-developer-2023/tree/main/Section%205:%20Advanced%20HTML%205/forms)
+- **Section 6**: CSS
+- **Section 7**: Advanced CSS
+- **Section 8**: Bootstrap
+  - [startup-page](startup-jeffry-mahbuubi.netlify.app)

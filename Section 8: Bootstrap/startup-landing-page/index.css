@@ -4,7 +4,8 @@ html {
   height: 100%;
   font-family: "Montserrat", sans-serif;
 
-  background: url(header.jpg) no-repeat center center fixed;
+  background: url(../startup-landing-page/header.jpg) no-repeat center center
+    fixed;
   background-size: cover;
 }
 

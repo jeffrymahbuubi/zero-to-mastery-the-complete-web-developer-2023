@@ -42,5 +42,46 @@
 /***********************************************************************
  *  Data Structures: Arrays
  **********************************************************************/
-var list=["tiger", "cat", "panda", "bird"]
+
+// var list=["tiger", "cat", "panda", "bird"]
+
+/***********************************************************************
+ *  Data Structures: Objects
+ **********************************************************************/
+// Objects is a collection of property
+// A function inside an object is called a method
+var user = {
+    name: "John",
+    age: 34,
+    hobby: "Soccer",
+    isMarried: false,
+    spells: ["abakadraba", "shazam", "boo"],
+    shout: function () {
+        console.log("AHHHHHH")
+    }
+};
+
+var list = [
+    {
+        username: "andy",
+        password: "secret"
+    },
+    {
+        username: "jess",
+        password: "123"
+    }
+
+]
+
+var emptyObj = {}
+var nullObj = null;
+
+// To show the property of an object use below, 
+// user.name
+// user.age
+// user.hobby
+// user.favouriteFood = "spinach";
+
+//To show the list of use below, 
+// list[0].username
 

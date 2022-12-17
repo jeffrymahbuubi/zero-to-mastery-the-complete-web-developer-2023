@@ -6,4 +6,17 @@
 // 4. stores that number and responds with the SUM by using an alert.  
 
 
+// ANSWER
+var first = prompt("Enter first number:");
+var second = prompt("Enter second number:");
+var sum = Number(first) + Number(second);
+var sub = Number(first) - Number(second);
+var multiply = Number(first) * Number(second);
+var divide = Number(first) / Number(second);
+alert("The sum is " + sum);
+alert("The sub is " + sub);
+alert("The mulitply is " + multiply);
+alert("The divide is " + divide);
+
+
 // BONUS: Make a program that can subtract, multiply, and also divide!

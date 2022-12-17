@@ -6,15 +6,22 @@
 
 
 // add variable "firstName" and "lastName" // so that they equal your name
-
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
+// ANSWER
+var firstName = prompt("Enter your first name: ");
+var lastName = prompt("Enter your last name: ");
+var fullName = alert("Your full-name is " + firstName + " " + lastName);
 
 // Evaluate this question. What is a + b?
 var a = 34;
 var b = 21;
 a = 2;
 a + b // what is the answer here?
+//ANSWER
+23
 
 // What is c equal to?
 var c;
+//ANSWER
+undefined
 

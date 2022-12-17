@@ -18,3 +18,5 @@ In total there are **35 section** that cover from **basic until advance on web d
 - **Section 7**: Advanced CSS
 - **Section 8**: Bootstrap
   - [startup-page](https://startup-jeffry-mahbuubi.netlify.app)
+- **Section 9**: CSS Grid + CSS Layout
+  - [layout-master](https://layout-master-jeffrymahbuubi.netlify.app/)

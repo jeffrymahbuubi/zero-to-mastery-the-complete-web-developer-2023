@@ -20,3 +20,6 @@ In total there are **35 section** that cover from **basic until advance on web d
   - [startup-page](https://startup-jeffry-mahbuubi.netlify.app)
 - **Section 9**: CSS Grid + CSS Layout
   - [layout-master](https://layout-master-jeffrymahbuubi.netlify.app/)
+- **Section 10**: Career Of A Web Developer
+- **Section 11**: Javascript
+- **Section 12**: DOM Manipulation

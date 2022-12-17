@@ -77,11 +77,50 @@ var emptyObj = {}
 var nullObj = null;
 
 // To show the property of an object use below, 
-// user.name
-// user.age
-// user.hobby
-// user.favouriteFood = "spinach";
+user.name
+user.age
+user.hobby
+user.favouriteFood = "spinach";
 
-//To show the list of use below, 
-// list[0].username
+//To show the object inside an array, use below, 
+list[0].username
 
+/***********************************************************************
+ *  Javascript Terminology
+ **********************************************************************/
+
+//function declaration
+function newFunction() {
+
+}
+
+//function expression
+var newFunction = function () {
+
+}
+
+//expression
+1 + 3;
+var a = 2;
+return true;
+
+//calling or invoking a function
+alert()
+newFunction(param1, param2)
+
+//assign a vriable
+var a = true;
+
+// function vs method
+function thisIsAFunction() {
+
+}
+
+var obj = {
+    thisIsAMethod: function () {
+
+    }
+}
+
+thisIsAFunction()
+obj.thisIsAMethod()
